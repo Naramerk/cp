@@ -1,0 +1,53 @@
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+airflow_env/
+
+# Database
+*.db
+*.sqlite3
+metastore_db/
+
+# Logs
+*.log
+logs/
+derby.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+data/
+collected_data/
+exports/
+artifacts/
+spark-warehouse/
+processed_posts.parquet/
+
+# Spark/Hadoop
+*.gz
+*.tar.gz
+
+# Credentials
+reddit_token.json 
